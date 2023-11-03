@@ -11,6 +11,14 @@
 		77BA7B5B2AF435F4009860FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BA7B5A2AF435F4009860FE /* ContentView.swift */; };
 		77BA7B5D2AF435F6009860FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77BA7B5C2AF435F6009860FE /* Assets.xcassets */; };
 		77BA7B602AF435F6009860FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77BA7B5F2AF435F6009860FE /* Preview Assets.xcassets */; };
+		77BA7B6D2AF4370D009860FE /* Dashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BA7B6C2AF4370D009860FE /* Dashboard.swift */; };
+		77BA7B6F2AF43713009860FE /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BA7B6E2AF43713009860FE /* Profile.swift */; };
+		77BA7B712AF43717009860FE /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BA7B702AF43717009860FE /* Assets.swift */; };
+		77BA7B732AF43A5D009860FE /* CryptoCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BA7B722AF43A5D009860FE /* CryptoCurrency.swift */; };
+		77BA7B752AF43A79009860FE /* CryptoCurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BA7B742AF43A79009860FE /* CryptoCurrencyView.swift */; };
+		77BA7B7B2AF44059009860FE /* CryptoDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BA7B7A2AF44059009860FE /* CryptoDetailsView.swift */; };
+		77BA7B802AF45001009860FE /* UserPortfolioRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BA7B7F2AF45001009860FE /* UserPortfolioRow.swift */; };
+		77BA7B822AF46020009860FE /* PortfolioItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77BA7B812AF46020009860FE /* PortfolioItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,14 @@
 		77BA7B5A2AF435F4009860FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		77BA7B5C2AF435F6009860FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77BA7B5F2AF435F6009860FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		77BA7B6C2AF4370D009860FE /* Dashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard.swift; sourceTree = "<group>"; };
+		77BA7B6E2AF43713009860FE /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		77BA7B702AF43717009860FE /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		77BA7B722AF43A5D009860FE /* CryptoCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrency.swift; sourceTree = "<group>"; };
+		77BA7B742AF43A79009860FE /* CryptoCurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoCurrencyView.swift; sourceTree = "<group>"; };
+		77BA7B7A2AF44059009860FE /* CryptoDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoDetailsView.swift; sourceTree = "<group>"; };
+		77BA7B7F2AF45001009860FE /* UserPortfolioRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPortfolioRow.swift; sourceTree = "<group>"; };
+		77BA7B812AF46020009860FE /* PortfolioItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +69,8 @@
 			children = (
 				77BA7B582AF435F4009860FE /* WalleyApp.swift */,
 				77BA7B5A2AF435F4009860FE /* ContentView.swift */,
+				77BA7B772AF43DBC009860FE /* Views */,
+				77BA7B762AF43DAC009860FE /* Models */,
 				77BA7B5C2AF435F6009860FE /* Assets.xcassets */,
 				77BA7B5E2AF435F6009860FE /* Preview Content */,
 			);
@@ -65,6 +83,52 @@
 				77BA7B5F2AF435F6009860FE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		77BA7B762AF43DAC009860FE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				77BA7B782AF43DD5009860FE /* Crypto */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		77BA7B772AF43DBC009860FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				77BA7B6C2AF4370D009860FE /* Dashboard.swift */,
+				77BA7B6E2AF43713009860FE /* Profile.swift */,
+				77BA7B702AF43717009860FE /* Assets.swift */,
+				77BA7B7E2AF44FE3009860FE /* Portfolio */,
+				77BA7B792AF43DF3009860FE /* Crypto */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		77BA7B782AF43DD5009860FE /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				77BA7B722AF43A5D009860FE /* CryptoCurrency.swift */,
+				77BA7B812AF46020009860FE /* PortfolioItem.swift */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		77BA7B792AF43DF3009860FE /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				77BA7B742AF43A79009860FE /* CryptoCurrencyView.swift */,
+				77BA7B7A2AF44059009860FE /* CryptoDetailsView.swift */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		77BA7B7E2AF44FE3009860FE /* Portfolio */ = {
+			isa = PBXGroup;
+			children = (
+				77BA7B7F2AF45001009860FE /* UserPortfolioRow.swift */,
+			);
+			path = Portfolio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +201,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77BA7B802AF45001009860FE /* UserPortfolioRow.swift in Sources */,
+				77BA7B752AF43A79009860FE /* CryptoCurrencyView.swift in Sources */,
 				77BA7B5B2AF435F4009860FE /* ContentView.swift in Sources */,
+				77BA7B732AF43A5D009860FE /* CryptoCurrency.swift in Sources */,
+				77BA7B6F2AF43713009860FE /* Profile.swift in Sources */,
+				77BA7B822AF46020009860FE /* PortfolioItem.swift in Sources */,
+				77BA7B7B2AF44059009860FE /* CryptoDetailsView.swift in Sources */,
+				77BA7B6D2AF4370D009860FE /* Dashboard.swift in Sources */,
+				77BA7B712AF43717009860FE /* Assets.swift in Sources */,
 				77BA7B592AF435F4009860FE /* WalleyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
