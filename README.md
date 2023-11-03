@@ -1,5 +1,5 @@
 # Walley-CryptoWallet
-Created base Crypto Portfolio: 
+Base Crypto Portfolio: 
 1. List of Crypto currencies
 2. Function to add and delete crypto from portfolio
 3. Function to buy and sell crypto
