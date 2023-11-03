@@ -6,5 +6,5 @@ Base Crypto Portfolio:
 
 Previews: 
 
-![Screenshot 2023-11-02 at 9 17 04 PM](https://github.com/Burenman/Walley-CryptoWallet/assets/102731422/15288ce5-3674-4886-b178-a8803d44488a)
 ![Screenshot 2023-11-02 at 9 17 30 PM](https://github.com/Burenman/Walley-CryptoWallet/assets/102731422/2f52f513-db8b-4026-a6b8-0c96cec35078)
+![Screenshot 2023-11-02 at 9 17 04 PM](https://github.com/Burenman/Walley-CryptoWallet/assets/102731422/15288ce5-3674-4886-b178-a8803d44488a)
