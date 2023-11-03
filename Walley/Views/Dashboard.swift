@@ -102,19 +102,18 @@ struct Dashboard: View {
                         }
         }
         .sheet(isPresented: $isSheetPresented) {
-            if let selectedCrypto = selectedCrypto {
-                CryptoDetailsView(sum: userPortfolio, cryptocurrency: selectedCrypto)
+            if let crypto = selectedCrypto {
+                CryptoDetailsView(sum: userPortfolio, cryptocurrency: crypto)
                     .presentationDetents([.medium])
                     .transition(.slide)
-                    .onChange(of: isSheetPresented) { isPresented in
-                        if !isPresented {
-                            isCryptoSelected = false
-                            print("Sheet is closed")
-                        }
+                    .onDisappear {
+                        selectedCrypto = nil // Set selectedCrypto to nil when the sheet disappears
+                        isCryptoSelected = false
+                        print("Sheet is closed")
                     }
-            }
+            } 
         }
- 
+
 
     }
     
